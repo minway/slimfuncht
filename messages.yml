@@ -1,213 +1,188 @@
 prefix:
-- '&aSlimefun &7> '
+- '&a黏液科技 &7> '
 messages:
   not-researched:
-  - '&4You do not have enough Knowledge to understand this'
+  - '&4你沒有智慧理解'
   not-enough-xp:
-  - '&4You do not have enough XP to unlock this'
+  - '&4你沒有足夠的經驗來解鎖'
   unlocked:
-  - '&bYou have unlocked &7"%research%"'
+  - '&b您已解鎖 &c"%research%"'
   fortune-cookie:
-  - '&7Help me, I am trapped in a Fortune Cookie Factory!'
-  - '&7You will die tomorrow...     by a Creeper'
-  - '&7At some Point in your Life something bad will happen!!!'
+  - '&7救我!我被困在一個幸運餅乾工廠!'
+  - '&7你死亡...一個爬行者'
+  - '&7在你的生活中的某些部分，會發生不好的事情!!!'
   - '&7Next week you will notice that this is not the real World, you are in a kind
     of "Matrix" or lets call it Computer game. Yes you are in a Computer Game'
-  - '&7This Cookie will taste good in a few seconds'
-  - '&7You will die soon and the last word you will hear is gonna be "EXTERMINATE!!!"'
-  - '&7Whatever you do, do not hug a Creeper... I tried it. It feels good, but it''s
-    not worth it.'
+  - '&7這個餅乾在幾秒鐘內味道不錯'
+  - '&7你會死的很快，你會聽到的最後一個字將是"殺掉!!!"'
+  - '&7無論你做什麼，不要擁抱苦力怕...我試過這感覺很好，但是不值得.'
   only-players:
-  - '&4This Command is only for Players'
+  - '&4此命令僅適用於玩家'
   no-permission:
-  - '&4You do not have the required Permission to do this'
+  - '&4您沒有權限'
   usage:
-  - '&4Usage: &c%usage%'
+  - '&4用法: &c%usage%'
   not-online:
-  - '&4%player% &cis not online!'
+  - '&4%player% &c不在線!'
   not-valid-item:
-  - '&4%item% &cis not a valid Item!'
-  not-valid-amount:
-  - '&4%amount% &cis not a valid amount : it must be higher than 0!'
+  - '&4%item% &c無此物品!'
   given-item:
-  - '&bYou have been given &a%amount% &7"%item%&7"'
+  - '&b你得到了1個  &7"%item%"'
   give-item:
-  - '&bYou have given %player% &a%amount% &7"%item%&7"'
+  - '&b你給了%player%1個&7"%item%"'
   not-valid-research:
-  - '&4%research% &cis not a valid Research!'
+  - '&4%research% &c無此物品!'
   give-research:
-  - '&bYou have given %player% the Research &7"%research%&7"'
+  - '&b你給了%player%這個知識 &7"%research%"'
   battery:
     add:
     - '&2+ &7%charge% J &8(%machine%)'
     remove:
     - '&4- &7%charge% J &8(%machine%)'
   hungry:
-  - '&cYou are too hungry to do that!'
+  - '&c你太餓了!'
   mode-change:
-  - '&b%device% Mode changed to: &9%mode%'
+  - '&b%device% 模式更改為: &9%mode%'
   disabled-in-world:
-  - '&4&lThis Item has been disabled in this World'
+  - '&4&lThis 此物品已停用'
   talisman:
     anvil:
-    - '&a&oYour Talisman saved your Tool from breaking'
+    - '&a&o你的護身符保存了你的工具'
     miner:
-    - '&a&oYour Talisman just doubled your Drops'
+    - '&a&oYour Talisman just doubled your Drops(獵人護身符帶翻譯)'
     hunter:
     - '&a&oYour Talisman just doubled your Drops'
     lava:
-    - '&a&oYour Talisman saved you from burning to death'
+    - '&a&o你的護身符救了你從燃燒到死亡'
     water:
-    - '&a&oYour Talisman saved you from drowning'
+    - '&a&o你的護身符救了你淹死'
     angel:
-    - '&a&oYour Talisman saved you from taking Fall Damage'
+    - '&a&o你的護身符救了你免除掉落傷害'
     fire:
-    - '&a&oYour Talisman saved you from burning to death'
+    - '&a&o你的護身符救了你從燃燒到死亡'
     magician:
-    - '&a&oYour Talisman gave you an additional Enchantment'
+    - '&a&o你的護身符給了你額外的附魔'
     traveller:
-    - '&a&oYour Talisman gave you a Speed Boost'
+    - '&a&o你的護身符給你速度提升'
     warrior:
-    - '&a&oYour Talisman has improved your Strength for a While'
+    - '&a&o你的護身符增加了你的力量'
     knight:
-    - '&a&oYour Talisman gave you 5 Seconds of Regeneration'
+    - '&a&o你的護身符給你5秒的再生'
     whirlwind:
-    - '&a&oYour Talisman reflected the Projectile'
+    - '&a&o你的護身符反彈了傷害'
     wizard:
-    - '&a&oYour Talisman has given you a better Fortune Level but maybe also lowered
-      some other Enchantment Levels'
+    - '&a&o你的護身符給你一個更好的財富水平，但可能也降低一些其他附魔級別'
   broken-leg:
-  - '&c&oSeems like you broke your Leg, maybe a Splint could help?'
+  - '&c&o你的腿斷了,也許夾板可以幫助你?'
   fixed-leg:
-  - '&a&oThe Splint helps. It feels better now.'
+  - '&a&o使用夾板,好了許多.'
   start-bleeding:
-  - '&c&oYou started to bleed. Maybe a Bandage could help?'
+  - '&c&o你流血嚴重,也許繃帶可以幫助你?'
   stop-bleeding:
-  - '&a&oThe Bandage helps. The Bleeding has stopped!'
+  - '&a&o使用繃帶,好了許多!'
   disabled-item:
-  - '&4&lThis Item has been disabled! How did you even get that?'
+  - '&4&l此物品以被禁止,你怎麼獲得的?'
   research:
     start:
-    - '&7The Ancient Spirits whisper mysterious Words into your Ear!'
+    - '&7一陣愉悅的聲音傳入你耳中!'
     progress:
-    - '&7You start to wonder about &b%research% &e(%progress%)'
+    - '&7你似乎了解了 &b%research% &e(%progress%)'
   fire-extinguish:
-  - '&7You have extinguished yourself'
-  cannot-place:
-  - '&cYou cannot place that block there!'
+  - '&7你已經熄滅了自己'
 commands:
   help:
-  - Displays this Help Screen
+  - 顯示幫助指令
   cheat:
-  - Allows you to cheat Items
+  - 創造獲得物資
   give:
-  - Give somebody some Slimefun Items
+  - 給玩家指定的物品
   research:
     desc:
-    - Unlock a Research for a Player
+    - 解所研究
     reset:
-    - '&cYou have reset %player%''s Knowledge'
+    - '&c你已重置%player%的知識'
     reset-target:
-    - '&cYour Knowledge has been reset'
+    - '&c你失去了所有的知識'
   guide:
-  - Gives yourself a Slimefun Guide
+  - 獲得黏液科技指南書
   timings:
-  - Lag-Info about your Server
+  - 關於您的服務器的Leg - 信息
   teleporter:
-  - See other Player's Waypoints
-  versions:
-  - Lists all installed Addons
-  open_guide:
-  - Opens Slimefun's guide without using the book
+  - 查看其他玩家的傳送點
   stats:
-  - Shows some Stats about a Player
+  - 顯示一些關於玩家的統計數據
 machines:
   pattern-not-found:
-  - '&eSorry, I could not recognize this Pattern. Please place the Items in the correct
-    Pattern into the Dispenser.'
+  - '&e我無法分辨這模式,請將物品放置正確的位置.'
   unknown-material:
-  - '&eSorry, I could not recognize the Item in my Dispenser. Please put something
-    in that I know.'
+  - '&e無法分辨其中的項目.請放入我所知道的物品.'
   wrong-item:
-  - '&eSorry, I could not recognize the Item you right clicked me with. Check the
-    Recipes and see which Items you can use.'
+  - '&e我無法分辨右鍵點擊的項目,請檢查是否用錯配方.'
   full-inventory:
-  - '&eSorry, my Inventory is too full!'
+  - '&e庫存已滿!'
   in-use:
-  - '&cThis Block''s Inventory is currently opened by a different Player.'
-  ignition-chamber-no-flint:
-  - '&cIgnition Chamber is missing Flint and Steel.'
+  - '&c%player%這在打開這方塊,你無權打擾.'
   ANCIENT_ALTAR:
     not-enough-pedestals:
-    - '&4The Altar is not surrounded by the needed Amount of Pedestals &c(%pedestals%
-      / 8)'
+    - '&4他祭壇沒有包圍所需的基礎數量 §c(%pedestals% / 8)'
     unknown-catalyst:
-    - '&4Unknown Catalyst! &cUse the correct Recipe instead!'
+    - '&4未知催化劑!請使用正確的物品!'
     unknown-recipe:
-    - '&4Unknown Recipe! &cUse the correct Recipe instead!'
-  ANCIENT_PEDESTAL:
-    obstructed:
-    - '&4Pedestal is obstructed! &cRemove anything above the pedestal!'
+    - '&4未知的配方! §c請使用正確的配方!'
   HOLOGRAM_PROJECTOR:
     enter-text:
-    - '&7Please enter your desired Hologram Text in your Chat. &r(Color Codes are
-      supported!)'
+    - '&7請在聊天中輸入想投影的文字. &r(支持顏色代碼!)'
   ELEVATOR:
     no-destinations:
-    - '&4No Destinations found'
-  CARGO_NODES:
-    must-be-placed:
-    - '&4Must be placed onto a Chest or Machine'
+    - '&4未找到目的地'
 miner:
   no-ores:
-  - '&eSorry, I could not find any Ores nearby!'
+  - '&e對不起，我找不到附近的任何礦石!'
 backpack:
-  already-open:
-  - '&cSorry, this backpack is open somewhere else!'
   no-stack:
-  - '&cYou cannot stack Backpacks'
+  - '&c你不能堆疊背包'
 workbench:
   not-enhanced:
-  - '&4You cannot use Slimefun Items in a normal Workbench'
+  - '&4您不能在正常工作台中使用&7SlimeFun&4物品'
 anvil:
   not-working:
-  - '&4You cannot use Slimefun Items in an Anvil'
+  - '&4你不能在鐵砧使用&7SlimeFun&4物品'
 gps:
   waypoint:
     new:
-    - '&ePlease type in a Name for your new Waypoint in the Chat. &7(Color Codes supported!)'
+    - '&e在聊天是輸入新的傳送點名稱. &7(支持顏色代碼!)'
     added:
-    - '&aSuccessfully added a new Waypoint'
+    - '&a已成功添加新的傳送點'
     max:
-    - '&4You have reached the Maximum Amount of Waypoints'
+    - '&4你已達到傳送點最大負荷'
   insufficient-complexity:
-  - '&4Insufficient GPS Network Complexity: &c%complexity%'
-  - '&4a) You do not have a GPS Network setup yet'
-  - '&4b) Your GPS Network is not complex enough'
+  - '&4GPS網絡組裝不夠完美: &c%complexity%'
+  - '&4a) 您尚未安裝GPS網絡設定'
+  - '&4b) 您的GPS網路組裝不夠完美'
   geo:
     scan-required:
-    - '&4GEO-Scan required! &cScan this Chunk using a GEO-Scanner first!'
+    - '&4需要GEO掃描! &c使用GEO-掃描儀掃描這塊chunk!'
 robot:
   started:
-  - '&7Your Robot resumed running its Script'
+  - '&7您的機器人恢復例行的工作'
   stopped:
-  - '&7Your Robot has paused its Script'
+  - '&7您的機器人暫停例行的工作'
 inventory:
   no-access:
-  - '&4You are not permitted to access this Block'
+  - '&4您無權使用此物品'
 android:
   scripts:
     already-uploaded:
-    - '&4This Script has already been uploaded.'
+    - '&4此腳本已上傳.'
     enter-name:
     - ''
-    - '&ePlease type in a Name for your Script'
+    - '&e請輸入您的腳本的名稱'
     - ''
     uploaded:
-    - '&bUploading...'
-    - '&aSuccessfully uploaded your Script!'
+    - '&b上傳...'
+    - '&a已成功上傳您的腳本!'
     rating:
       own:
-      - '&4You cannot rate your own Script!'
+      - §4你不能評價自己的腳本!
       already:
-      - '&4You have already left a Rating for this Script!'
+      - §4您已經為此腳本留下評級!
